@@ -50,7 +50,8 @@ function getAllRamens() {
        .then(res => res.json())
        .then(ramens => ramens.forEach(ramen => renderOneRamen(ramen)))
 }
-
+//fetch POST request
+//add a ramen on the ramen resources
 function newRamen(ramenObj) {
     fetch('http://localhost:3000/ramens', {
         method: 'POST',
