@@ -35,6 +35,16 @@ header {
   cursor: pointer;
 }
 
+#ramen-menu button {
+  color: black;
+  width: 10px;
+  height: 15px;
+  border: none;
+  text-align: center;
+  background-color: rgb(219, 219, 215);
+
+}
+
 #ramen-menu img:last-child {
   margin-right: 0;
 }

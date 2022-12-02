@@ -37,7 +37,7 @@ function handleSubmit(e) {
         restaurant: e.target.restaurant.value,
         image: e.target.image.value,
         rating: e.target.rating.value,
-        comment: e.target.comment.value
+        comment: e.target.newComment.value
 }
    renderOneRamen(ramenObj)
     newRamen(ramenObj)
